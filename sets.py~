@@ -1,5 +1,0 @@
-def union(a, b):
-    newList = [i for i in a if not in b] + [i for i in b]
-    return newList
-
-print union([1,2,3], [2,3,4])
